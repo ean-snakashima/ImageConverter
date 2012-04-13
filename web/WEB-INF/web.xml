@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app
+	xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+	version="2.4">
+	
+	<servlet>
+		<description>Image Convert Service</description>
+		<servlet-name>ImageConvertServlet</servlet-name>
+		<servlet-class>com.ean.image.service.ImageConvertServlet</servlet-class>
+		<init-param>
+			<param-name>local_dir</param-name>
+			<param-value>c:\temp</param-value>
+		</init-param>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ImageConvertServlet</servlet-name>
+		<url-pattern>/*</url-pattern>
+	</servlet-mapping>
+</web-app>
