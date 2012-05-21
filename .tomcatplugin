@@ -5,7 +5,7 @@
     <reloadable>true</reloadable>
     <redirectLogger>false</redirectLogger>
     <updateXml>true</updateXml>
-    <warLocation></warLocation>
+    <warLocation>C:\Users\snakashima\workspace\ImageConverter\imgconv.war</warLocation>
     <extraInfo></extraInfo>
     <webPath>/img</webPath>
 </tomcatProjectProperties>
